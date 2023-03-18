@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="เว็บไซต์ที่เกี่ยวข้องกับเพลงและการแบ่งปันเพลงให้กับผู้อื่น">
+    <meta name="author" content="Chayut Kraiwiset">
+    <meta name="keywords" content="เพลง ศิลปินไทย">
+    <title>Fung Peng Fung Jai Form</title>
+    <link rel="icon" type="image/x-icon" href="/image/d60667c14fdaff557c8af0fc229721d5.jpg">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+   <!-- เมนู -->       
+   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+        <a href="index.html" class="navbar-brand fs-3 fw-bolder">Fung Peng Fung Jai  </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar1" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link fw-bolder">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="page1.html" class="nav-link fw-bolder">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a href="page2.html" class="nav-link fw-bolder">Playlist</a>
+                </li>
+                <li class="nav-item">
+                    <a href="page3.html" class="nav-link fw-bolder">Form</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- แบบฟอร์ม -->
+    <div class="container" style="margin-top: 20px;">
+        <form> 
+        
+            <div class="mb-3">
+                <label for="name" class="form-label">ชื่อ</label>
+                <input type="text" placeholder="กรุณาป้อนชื่อ" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="nickname" class="form-label">ชื่อเล่น</label>
+                <input type="nickname" placeholder="กรุณาป้อนชื่อเล่น" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">อีเมล</label>
+                <input type="email" placeholder="กรุณาป้อนอีเมล" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">รหัสผ่าน</label>
+                <input type="password" placeholder="กรุณาป้อนรหัสผ่าน" class="form-control">
+            </div>
+            
+            <div class="mb-3">
+                <label for="job" class="form-label">ชอบฟังเพลงแนวไหน</label>
+                <select name="job" class="form-select">
+                    <option>POP</option>
+                    <option>ROCK</option>
+                    <option>INDY</option>
+                    <option>HIP-HOP</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label">เพลงที่คุณชอบคือเพลงอะไรและทำไมถึงชอบเพลงนี้</label>
+                <textarea  class="form-control" cols="30" rows="5"></textarea>
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label">เพลงหรือรูปภาพที่ต้องการโชว์ผู้อื่น</label>
+                <input type="file" class="form-control">
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label">ความประทับใจที่มีต่อชุมชน</label>
+                <input type="range" min="1"  max="5" value="5" class="form-range">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">ปัญหาที่เจอในการใช้งาน</label>
+                <textarea  class="form-control" cols="30" rows="5"></textarea>
+            </div>
+            <h5 class="text-center text-danger fw-bolder">"ขอบคุณที่เข้ามาเป็นส่วนหนึ่งในการฟังเพลง ขอบคุณมากนะ"</h5><br>
+            <div class="text-center">
+                <input type="submit" name="" id="" value="บันทึกข้อมูล" class="btn btn-success">
+            </div>
+        </form>
+        <br>
+    </div>
+
+
+     <!--เกี่ยวกับผู้ทำ-->
+     <section id="about" class="p-0">
+        <div class="text-white bg-black">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-4">
+                        <h1> Contact <hr size="6" width="1300"></h1>
+                        <p> Facebook: Chayut Kraiwiset <br>  
+                            Instagram: Skrtitfiw <br>
+                            Email: Fiw_labaho@hotmail.com <br>
+                            !อย่าลืมมาเป็นเพื่อนกันนะ!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
